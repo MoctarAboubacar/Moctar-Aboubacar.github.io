@@ -1,1 +1,170 @@
-<b> Here go links to the different analyses or cool things I did/am doing</b>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moctar Aboubacar — Data Economist</title>
+  <meta name="description" content="Portfolio of Moctar Aboubacar, Lead Economist for Eastern and Southern Africa at WFP." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── Navigation ─────────────────────────────────────── -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-name">Moctar Aboubacar</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── Hero ───────────────────────────────────────────── -->
+  <div id="top" class="hero">
+    <p class="hero-eyebrow">Lead Economist · WFP · Nairobi</p>
+    <h1>Moctar Aboubacar</h1>
+    <p class="hero-subtitle">
+      I build data evidence for humanitarian response — food security assessments,
+      vulnerability analysis, and data products across Eastern and Southern Africa.
+    </p>
+    <div class="hero-links">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="https://github.com/MoctarAboubacar" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+    </div>
+  </div>
+
+  <!-- ─── About ──────────────────────────────────────────── -->
+  <section id="about">
+    <p class="section-label">About</p>
+    <h2>Background</h2>
+    <!-- EDIT BIO: update the paragraph text below -->
+    <div class="about-text">
+      <p>
+        I am Lead Economist for Eastern and Southern Africa at the World Food Programme,
+        based in Nairobi. My work centres on food security evidence — supporting WFP country
+        offices across 20 countries with assessments, analysis, and the data products that
+        inform humanitarian response.
+      </p>
+      <p>
+        My methods range from household survey analysis and IPC food security classifications
+        to geospatial vulnerability mapping and causal inference techniques. I work primarily
+        in R and Python, and I believe rigorous, reproducible analysis is the foundation of
+        effective humanitarian action.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─── Projects ───────────────────────────────────────── -->
+  <section id="projects">
+    <p class="section-label">Work</p>
+    <h2>Selected Projects</h2>
+    <div class="projects-grid">
+
+      <!-- CARD TEMPLATE (copy this block to add a project):
+      <article class="card">
+        <span class="card-tag tag-r">R</span>
+        <h3>Project Title</h3>
+        <p>One sentence description of what this project does and why it matters.</p>
+        <a href="https://github.com/MoctarAboubacar/REPO-NAME" target="_blank" rel="noopener" class="card-link">View on GitHub</a>
+      </article>
+      -->
+
+      <article class="card">
+        <span class="card-tag tag-r">R</span>
+        <h3>Welfare Impact Among South Sudan Refugees</h3>
+        <p>
+          Propensity score matching to estimate the causal effect of general food distribution
+          on overall welfare outcomes among refugee populations in South Sudan.
+        </p>
+        <a href="https://github.com/MoctarAboubacar/PropensityScoreMatching" target="_blank" rel="noopener" class="card-link">View on GitHub</a>
+      </article>
+
+      <article class="card">
+        <span class="card-tag tag-r">R</span>
+        <h3>National Food Security Vulnerability Index — Nepal</h3>
+        <p>
+          Building a composite national vulnerability index to identify food-insecure
+          districts in Nepal, combining household survey data with structural indicators.
+        </p>
+        <a href="https://github.com/MoctarAboubacar/vulnerability_index" target="_blank" rel="noopener" class="card-link">View on GitHub</a>
+      </article>
+
+      <article class="card">
+        <span class="card-tag tag-r">R</span>
+        <h3>Gender Pay Gap in the Humanitarian Sector</h3>
+        <p>
+          Analysing humanitarian worker compensation data to test for consistent gender-based
+          pay disparities and advance explanatory hypotheses for observed differences.
+        </p>
+        <a href="https://github.com/MoctarAboubacar/Measuring_gender_gap" target="_blank" rel="noopener" class="card-link">View on GitHub</a>
+      </article>
+
+      <article class="card">
+        <span class="card-tag tag-html">HTML · R</span>
+        <h3>Geospatial Vulnerability Clustering — Nepal</h3>
+        <p>
+          Cluster analysis of geospatial vulnerability indicators in Nepal, combining
+          OSM data, household survey outputs, and spatial statistics to map risk zones.
+        </p>
+        <a href="https://github.com/MoctarAboubacar/vulnerability_clustering" target="_blank" rel="noopener" class="card-link">View on GitHub</a>
+      </article>
+
+      <article class="card">
+        <span class="card-tag tag-html">HTML · R</span>
+        <h3>Spatial Autocorrelation in Housing by Race — Harris County</h3>
+        <p>
+          Moran's I and local spatial autocorrelation analysis of racial residential
+          segregation patterns in Harris County, Texas using census tract data.
+        </p>
+        <a href="https://github.com/MoctarAboubacar/spatial_autocorrelation_texas" target="_blank" rel="noopener" class="card-link">View on GitHub</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ─── CV ─────────────────────────────────────────────── -->
+  <section id="cv">
+    <p class="section-label">CV</p>
+    <h2>Curriculum Vitae</h2>
+    <div class="cv-inner">
+      <div class="cv-text">
+        <!-- EDIT CV: replace the button below with:
+             <a href="cv/moctar-aboubacar-cv.pdf" download class="btn btn-primary">Download CV (PDF)</a>
+             after adding your CV file to a cv/ folder in this repo. -->
+        <p>A full CV is available on request.</p>
+        <p class="cv-note">PDF download coming soon.</p>
+      </div>
+      <button class="btn btn-disabled" disabled aria-disabled="true">Download CV — coming soon</button>
+    </div>
+  </section>
+
+  <!-- ─── Footer / Contact ────────────────────────────────── -->
+  <footer id="contact">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <strong>Moctar Aboubacar</strong><br />
+        World Food Programme · Nairobi, Kenya
+      </div>
+      <ul class="footer-links">
+        <li><a href="mailto:moctar.aboubacar@gmail.com">Email</a></li>
+        <li><a href="https://github.com/MoctarAboubacar" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- ─── Nav scroll effect ───────────────────────────────── -->
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 10);
+    }, { passive: true });
+  </script>
+
+</body>
+</html>
